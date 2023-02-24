@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+#header {
+    width: 100%;
+    height: 5rem;
+    position: fixed;
+    top: 0%;
+    background-color: rgb(255, 255, 255);
+    z-index: 2;
+    box-shadow: 2px 2px 20px 2px grey;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartWrapper {
+    margin-top: 1.5rem;
+    margin-right: 3%;
+}
+
+.dropdown button {
+    width: 5rem;
+}
+
+
+.dropdown-menu {
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-menu li {
+    margin-block-end: 0.2rem;
+}
+
+
+h1 {
+    margin: 1rem 1rem;
+    letter-spacing: 0.2rem;
+    font-family: candara;
+    opacity: 0.6;
+}
+
+
+.bodyWrapper {
+    margin-top: 5rem;
+    z-index: 1;
+}
+
+.productCardWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6rem;
+    justify-content: center;
+}
+
+
+#clearBtn{
+    width:8rem;
+    margin-left: 1rem;
+}
+
